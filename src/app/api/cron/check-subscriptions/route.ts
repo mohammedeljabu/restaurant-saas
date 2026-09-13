@@ -1,4 +1,3 @@
-export const dynamic = 'force-dynamic'
 import { prisma } from '@/lib/prisma'
 
 // Cron يومي - يفحص انتهاء التجارب المجانية والاشتراكات
