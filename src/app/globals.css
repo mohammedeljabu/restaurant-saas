@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root { --radius: 16px; }
+body { font-family: Inter, Tajawal, sans-serif; }
+.rtl { direction: rtl; }
+.ltr { direction: ltr; }
