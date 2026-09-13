@@ -12,9 +12,9 @@ async function main() {
     create: {
       slug: 'basic',
       name: 'Basic',
-      description: 'QR Menu + Orders + Tables + Cashier - 149 د.ل/شهر',
-      priceMonthly: 149,
-      priceYearly: 1490,
+      description: 'QR Menu + Orders + Tables + Cashier - 50 د.ل/شهر',
+      priceMonthly: 50,
+      priceYearly: 500,
       features: { qr: true, orders: true, tables: true, pos: true, kds: false, inventory: false, maxBranches: 1, maxTables: 20 },
       maxBranches: 1, maxTables: 20, maxEmployees: 5
     }
@@ -26,9 +26,9 @@ async function main() {
     create: {
       slug: 'pro',
       name: 'Pro',
-      description: 'كل ميزات Basic + KDS + Waiter + Inventory + Reports - 349 د.ل/شهر',
-      priceMonthly: 349,
-      priceYearly: 3490,
+      description: 'كل ميزات Basic + KDS + Waiter + Inventory + Reports - 120 د.ل/شهر',
+      priceMonthly: 120,
+      priceYearly: 1200,
       features: { qr: true, orders: true, tables: true, pos: true, kds: true, waiter: true, inventory: true, reports: true, reservations: true, maxBranches: 3 },
       maxBranches: 3, maxTables: 50, maxEmployees: 15
     }
@@ -40,9 +40,9 @@ async function main() {
     create: {
       slug: 'enterprise',
       name: 'Enterprise',
-      description: 'كل الميزات + Multi Branch + API + Custom Domain - 799 د.ل/شهر',
-      priceMonthly: 799,
-      priceYearly: 7990,
+      description: 'كل الميزات + Multi Branch + API + Custom Domain - 199 د.ل/شهر',
+      priceMonthly: 199,
+      priceYearly: 1990,
       features: { qr: true, orders: true, tables: true, pos: true, kds: true, waiter: true, inventory: true, reports: true, reservations: true, api: true, customDomain: true, maxBranches: 10 },
       maxBranches: 10, maxTables: 200, maxEmployees: 100
     }
